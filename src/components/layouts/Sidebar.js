@@ -100,7 +100,7 @@ function Sidebar(props, { defaultActiveSub }) {
       if (!subOption.children) {
         return (
           <Link to={subOption.url} key={index}>
-            <SidebarItem key={subOption.name}
+            <SidebarItem key={subOption.name} 
               style={{ padding: '10px 20px' }}
               active={x + '' + index === activeSubIndex}
             >
